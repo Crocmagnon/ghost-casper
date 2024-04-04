@@ -1833,6 +1833,21 @@ iframe.instagram-media + script + :not([id]) {
     border-radius: 6px;
 }
 
+.footer-cta-reply-button {
+    display: inline-block;
+    padding: 9px 15px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    background: var(--ghost-accent-color);
+    border-radius: 6px;
+}
+
+.footer-cta + .footer-cta {
+    margin-top: max(12vmin, 72px);
+}
+
 
 /* 6.3. Read more
 /* ---------------------------------------------------------- */

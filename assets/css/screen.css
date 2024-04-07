@@ -1282,6 +1282,8 @@ html.no-infinite-scroll .pagination {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    max-height: 70vh;
+    object-fit: cover;
 }
 
 @media (max-width: 767px) {

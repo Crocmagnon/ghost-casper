@@ -2359,6 +2359,10 @@ html.dark-mode .footer-cta-title {
         opacity: 0.9;
     }
 
+    html.auto-color .site-header-inner img.site-logo {
+        opacity: 1; /* keep logo sharp in dark mode */
+    }
+
     html.auto-color kbd {
         background: color-mod(var(--color-darkmode) l(+5%));
     }

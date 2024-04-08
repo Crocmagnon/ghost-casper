@@ -152,7 +152,7 @@ production stylesheet in assets/built/screen.css
 .site-logo {
     flex-shrink: 0;
     margin: 0 auto;
-    max-height: 120px;
+    max-height: 150px;
 }
 
 .site-header-content.left-aligned .site-logo {
@@ -243,7 +243,7 @@ production stylesheet in assets/built/screen.css
         gap: 16px;
     }
     .site-logo {
-        max-width: 60%;
+        max-width: 80%;
     }
     .site-title {
         font-size: 3.4rem !important;

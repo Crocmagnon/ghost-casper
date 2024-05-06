@@ -1835,13 +1835,19 @@ iframe.instagram-media + script + :not([id]) {
 
 .footer-cta-reply-button {
     display: inline-block;
-    padding: 9px 15px;
+    padding: 8px 13px;
     color: #fff;
     font-size: 1.6rem;
     font-weight: 600;
     letter-spacing: -0.005em;
     background: var(--ghost-accent-color);
     border-radius: 6px;
+    border: 3px solid var(--ghost-accent-color);
+}
+
+.footer-cta-reply-button.outline {
+    color: var(--ghost-accent-color);
+    background-color: #fff;
 }
 
 .footer-cta + .footer-cta {

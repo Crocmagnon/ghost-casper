@@ -2185,6 +2185,10 @@ html.dark-mode .site-header-content {
     color: #fff;
 }
 
+html.dark-mode .site-header-cover {
+    opacity: 1;
+}
+
 html.dark-mode .post-card-image {
     background: var(--color-darkmode);
 }
@@ -2355,10 +2359,6 @@ html.dark-mode .footer-cta-title {
         opacity: 0.9;
     }
 
-    html.auto-color .site-header-inner img.site-logo {
-        opacity: 1; /* keep logo sharp in dark mode */
-    }
-
     html.auto-color kbd {
         background: color-mod(var(--color-darkmode) l(+5%));
     }
@@ -2379,6 +2379,10 @@ html.dark-mode .footer-cta-title {
 
     html.auto-color .site-header-content {
         color: #fff;
+    }
+
+    html.auto-color .site-header-cover {
+        opacity: 1;
     }
 
     html.auto-color .post-card-image {

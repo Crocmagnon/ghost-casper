@@ -1843,9 +1843,16 @@ iframe.instagram-media + script + :not([id]) {
     background: var(--ghost-accent-color);
     border-radius: 6px;
     border: 3px solid var(--ghost-accent-color);
+    min-width: 12em;
+    margin: 0.5em;
 }
 
-.footer-cta-reply-button.outline {
+.footer-cta-reply-button.outline:hover, .footer-cta-reply-button {
+    color: #fff;
+    background-color: var(--ghost-accent-color);
+}
+
+.footer-cta-reply-button.outline, .footer-cta-reply-button:hover {
     color: var(--ghost-accent-color);
     background-color: #fff;
 }

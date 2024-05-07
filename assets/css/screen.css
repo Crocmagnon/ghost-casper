@@ -1847,14 +1847,19 @@ iframe.instagram-media + script + :not([id]) {
     margin: 0.5em;
 }
 
-.footer-cta-reply-button.outline:hover, .footer-cta-reply-button {
+.footer-cta-reply-button:hover {
     color: #fff;
-    background-color: var(--ghost-accent-color);
+    background-color: color-mix(in srgb, var(--ghost-accent-color) 85%, white);
 }
 
-.footer-cta-reply-button.outline, .footer-cta-reply-button:hover {
+.footer-cta-reply-button.outline {
     color: var(--ghost-accent-color);
     background-color: #fff;
+}
+
+.footer-cta-reply-button.outline:hover {
+    background-color: color-mix(in srgb, var(--ghost-accent-color) 7%, white);
+    color: var(--ghost-accent-color);
 }
 
 .footer-cta + .footer-cta {

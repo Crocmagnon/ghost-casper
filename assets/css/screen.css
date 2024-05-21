@@ -878,7 +878,7 @@ production stylesheet in assets/built/screen.css
     position: relative;
     overflow: hidden;
     display: block;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .post-card-image-link::after {
